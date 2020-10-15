@@ -1,0 +1,9 @@
+#!/bin/bash
+	 
+zmienna=$(date +%u)
+if [ $zmienna -eq 6 -o $zmienna -eq 7 ]
+then
+	echo Jest weekend
+else
+	 echo Jest dzien roboczy
+fi
